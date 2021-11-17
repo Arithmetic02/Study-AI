@@ -1,5 +1,3 @@
-<script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML"></script>
-
 # Study-AI 実装演習レポート
 ## 機械学習（非線形回帰モデル）
 ### 1. 要点まとめ
@@ -8,10 +6,11 @@
 予測のモデルとして多項式関数等を用いることが線形回帰モデルとの違いである。
 <u>利用の多い関数の種類</u>
 
-- 多項式関数
-  $ \phi_j=x^j $
-- ガウス型基底関数（指数を使用した関数）
-  $ \phi_j(x)=exp\left\{\dfrac{(x-\mu_j)^2}{2h_j}\right\} $
+- 多項式関数<br>
+  <img src="https://latex.codecogs.com/svg.latex?\phi_j=x^j" />
+
+- ガウス型基底関数（指数を使用した関数）<br>
+  <img src="https://latex.codecogs.com/svg.latex?\phi_j(x)=exp\left\{\dfrac{(x-\mu_j)^2}{2h_j}\right\}" />
 - スプライン関数（区分的な一次関数）
 
 <u>数式化の要点</u>
@@ -41,5 +40,5 @@ numpyを使用した多項式関数のモデル化およびグラフ化を試行
 
 ### 4. 関連記事
 
-https://python.atelierkobato.com/gauss-model/
+https://python.atelierkobato.com/gauss-model/<br>
 https://atmarkit.itmedia.co.jp/ait/articles/2009/09/news025.html

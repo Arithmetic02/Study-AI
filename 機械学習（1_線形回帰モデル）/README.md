@@ -6,14 +6,14 @@
 
 線形回帰モデルは、教師あり学習にて、ある入力から出力を予測するモデルである。
 入力の各要素を説明変数、特徴量と呼ぶ。<br>
-<img src="https://latex.codecogs.com/svg.latex?x=(x_1,x_2,...,x_m)^T\in\mathbb{R}^m" />
+<img src="https://render.githubusercontent.com/render/math?math=x=(x_1, x_2, ..., x_m)^T \in \mathbb{R}^m" />
 
 出力は目的変数と呼び、スカラー値で表現される。<br>
-<img src="https://latex.codecogs.com/svg.latex?y\in\mathbb{R}^1" />
+<img src="https://render.githubusercontent.com/render/math?math=y\in\mathbb{R}^1" />
 
 慣例として予測値にはハットを付ける。<br>
-<img src="https://latex.codecogs.com/svg.latex?w=(w_1,w_2,...,w_m)^T" /><br>
-<img src="https://latex.codecogs.com/svg.latex?\hat{y}=w^Tx+w_0" />
+<img src="https://render.githubusercontent.com/render/math?math=w=(w_1,w_2,...,w_m)^T" /><br>
+<img src="https://render.githubusercontent.com/render/math?math=\hat{y}=w^T%2b+w_0" />
 
 ### 2. 実装演習
 
@@ -21,7 +21,7 @@
 - 課題<br>
 部屋数が 4で犯罪率が 0.3の物件はいくらになるか？
 - 手順<br>
-<img src="https://latex.codecogs.com/svg.latex?y=Xw&plus;\varepsilon" />の重回帰にて推測する。
+<img src="https://render.githubusercontent.com/render/math?math=y=Xw%2b\varepsilon" /> の重回帰にて推測する。
 - 予測結果<br>
 約 $4,240
 - [(sklearnでの実行結果)](Exercises-1.ipynb)

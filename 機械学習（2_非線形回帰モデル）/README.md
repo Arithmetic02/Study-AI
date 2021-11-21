@@ -7,10 +7,11 @@
 <u>利用の多い関数の種類</u>
 
 - 多項式関数<br>
-  <img src="https://latex.codecogs.com/svg.latex?\phi_j=x^j" />
+  <img src="https://render.githubusercontent.com/render/math?math=x=(x_1, x_2, ..., x_m)^T \in \mathbb{R}^m" />
+
 
 - ガウス型基底関数（指数を使用した関数）<br>
-  <img src="https://latex.codecogs.com/svg.latex?\phi_j(x)=exp\left\{\dfrac{(x-\mu_j)^2}{2h_j}\right\}" />
+  <img src="https://render.githubusercontent.com/render/math?math=\phi_j(x)=exp\left\{\dfrac{(x-\mu_j)^2}{2h_j}\right\}" />
 - スプライン関数（区分的な一次関数）
 
 <u>数式化の要点</u>

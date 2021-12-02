@@ -36,6 +36,6 @@
 
 ### 4. 関連記事
 
-https://python.atelierkobato.com/iris/
-https://qiita.com/renesisu727/items/964005bd29aa680ad82d
-https://qiita.com/renesisu727/items/3fbed61e3253934eb68e
+- https://python.atelierkobato.com/iris/
+- https://qiita.com/renesisu727/items/964005bd29aa680ad82d
+- https://qiita.com/renesisu727/items/3fbed61e3253934eb68e
